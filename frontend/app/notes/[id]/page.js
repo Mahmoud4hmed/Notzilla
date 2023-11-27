@@ -7,9 +7,7 @@ function Update({ params }) {
   const [notes, setNotes] = useState([])
 
   useEffect(() => {
-
     getNotes()
-
   }, [])
 
   const getNotes = async () => {
